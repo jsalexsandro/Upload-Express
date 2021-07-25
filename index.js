@@ -67,9 +67,6 @@ app.get("/files",(req,res) => {
         console.log(html)
         res.send(html)
     })
-    
-
-    
 })
 
 const port = process.env.PORT || 3000
